@@ -2,13 +2,11 @@ import styled from 'styled-components';
 
 export function ButtonGreen(props){
     return (
-        <section>
-            <Button>
-                <p id='button'>
-                    {props.name}
-                </p>
-            </Button>
-        </section>
+        <Button>
+            <p id='button'>
+                {props.name}
+            </p>
+        </Button>
     )
 }
 
@@ -30,6 +28,7 @@ cursor: pointer;
         font-weight: 900;
         font-size: 21px;
         line-height: 25px;
+        cursor: pointer;
     }
 
     @media (max-width: 769px){

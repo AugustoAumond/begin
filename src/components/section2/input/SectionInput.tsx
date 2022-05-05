@@ -1,16 +1,17 @@
 import styled from 'styled-components';
+import { useState } from 'react';
 
 import {ButtonGreen} from '../../../material/buttons/section2/ButtonGreen';
-import {EmailStorage} from './Input.action';
 
-function SectionInput(){
+
+function SectionInput(){    
 
     return (
         <DivInput>
             <input id='input'/>
-            <label id='label'> Enter your email</label>
+            <Label id='lab'> Enter your email</Label>
 
-            <ButtonGreen onClick={(()=> EmailStorage())} name={'JOIN OUR LIST'}/>
+            <ButtonGreen  name={'JOIN OUR LIST'}/>
 
             <p id='txt'>Thanks! Email received.</p>
         </DivInput>
@@ -38,18 +39,7 @@ top: 420px;
         border-radius: 5px;
     }
 
-    label {
-        position: absolute;
-        width: 176px;
-        height: 25px;
-        left: 25px;
-        top: 19px;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 21px;
-        line-height: 25px;
-    }
+
 
     #txt {
         position: absolute;
@@ -118,3 +108,16 @@ top: 420px;
         }
     }
 `
+
+const Label = styled.label`
+position: absolute;
+width: 176px;
+height: 25px;
+left: 25px;
+top: 19px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+        `
