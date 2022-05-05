@@ -86,13 +86,13 @@ margin-right: 10px;
             h1 {
                 font-size: 22px;
                 line-height: 26px;
-                margin-top: 100px;
+                margin-top: 90px;
             }
 
             p {
                 font-size: 12px;
                 line-height: 14px;
-                margin-top: 130px;
+                margin-top: 120px;
             }
         }
     }
@@ -104,10 +104,6 @@ margin-right: 10px;
             margin-left: unset;
             margin-top: 25px;
             margin-left: 10px;
-            
-            h1 {
-                margin-top: 90px;
-            }
 
             p {
                 margin-top: 115px;

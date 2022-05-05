@@ -5,33 +5,33 @@ function Options (){
         <DivOptions>
             <ul>
                 <div id='C1'>
-                    <li>Features</li>
-                    <li>Pricing</li>
-                    <li>Services</li>
-                    <li>Partners</li>
+                    <li><a href="">Features</a> </li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Partners</a></li>
                 </div>
             
                 <div id='C2'>
-                    <li>About Us</li>
-                    <li>Tutorials</li>
-                    <li>Resources</li>
-                    <li>Help Center</li>
-                    <li>Templates</li>
-                    <li>Case Studies</li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Tutorials</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="">Templates</a></li>
+                    <li><a href="">Case Studies</a></li>
                 </div>
 
                 <div id='C3'>
-                    <li>Medium</li>
-                    <li>Twitter</li>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                    <li>LinkedIn</li>
+                    <li><a href="">Medium</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">LinkedIn</a></li>
                 </div>
 
                 <div id='C4'> 
-                    <li>Contact Us</li>
-                    <li>Slack</li>
-                    <li>Jobs</li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Slack</a></li>
+                    <li><a href="">Jobs</a></li>
                 </div>
             </ul>
         </DivOptions>
@@ -87,6 +87,11 @@ top: 79px;
         position: relative;
         left: 438px;
         top: -501px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
     }
 
     @media (max-width: 915px){
